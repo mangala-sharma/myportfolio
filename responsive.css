@@ -1,0 +1,23 @@
+
+.container {
+    text-align: center;
+    padding:17px 90px;
+
+}
+
+.navigation .brand {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navigation ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation li a{
+    padding: 1rem;
+    text-align:center;
+}

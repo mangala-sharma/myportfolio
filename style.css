@@ -1,5 +1,5 @@
 
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
 
     body{
         font-family: 'Montserrat', sans-serif;
@@ -29,8 +29,8 @@
 }
 
 .navigation .brand p{
-    position:relative;
-    top:7px;
+    position: relative;
+    top: 6px;
 }
 
 .navigation ul{
@@ -72,7 +72,7 @@ header h1{
 
 .container {
     text-align: center;
-    padding:17px 179px;
+    padding:17px 121px;
 
 }
 
@@ -98,7 +98,7 @@ header h1{
 
 footer{
     text-align:center;
-    margin:19px;
+    margin-top:7px;
     background-color: var(--primary-color);
     color:white;
     padding:2rem;
@@ -108,4 +108,9 @@ footer{
 footer span a{
     text-decoration: none;
     color:white;
+}
+
+/* about.html style */
+.aboutimg{
+    width:11rem;
 }
