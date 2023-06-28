@@ -70,6 +70,9 @@ header h1{
     font-weight: bold;
 }
 
+.bdy{
+    height:796px;
+}
 .container {
     text-align: center;
     padding:17px 121px;
@@ -98,7 +101,6 @@ header h1{
 
 footer{
     text-align:center;
-    margin-top:7px;
     background-color: var(--primary-color);
     color:white;
     padding:2rem;
@@ -113,4 +115,36 @@ footer span a{
 /* about.html style */
 .aboutimg{
     width:11rem;
+}
+
+/* project page styling */
+.center{
+    text-align:center;
+}
+.proj {
+    padding:17px 92px;
+}
+.proj li{
+    list-style: number;
+    text-align:justify;   
+}
+
+hr{
+    margin-top:22px;
+}
+
+/* Blog page */
+.blog-container{
+    display: flex;
+}
+
+.blog-container .items {
+    border: 2px solid purple;
+   
+}
+
+.blog-contaainer .items img{
+    display:block;
+    width: 30%;
+    height: 20px;
 }
