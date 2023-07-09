@@ -1,14 +1,16 @@
 
 .container {
     text-align: center;
-    padding:17px 90px;
+    padding:17px 26px;
 
 }
+
 
 .navigation .brand {
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 
@@ -25,4 +27,10 @@
 /* project file */
 .proj{
     padding:17px 35px;
+}
+
+/* blog-page */
+.blog-container .items {
+    display:flex;
+    flex-direction: column;
 }

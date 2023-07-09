@@ -71,7 +71,7 @@ header h1{
 }
 
 .bdy{
-    height:796px;
+    height:573px;
 }
 .container {
     text-align: center;
@@ -118,6 +118,10 @@ footer span a{
     width:11rem;
 }
 
+ .justify{
+    text-align:justify;
+ }
+
 /* project page styling */
 .center{
     text-align:center;
@@ -137,12 +141,14 @@ hr{
 /* Blog page */
 .blog-container{
     display: flex;
+    flex-direction: column;
 }
 
 .blog-container .items {
+    display:flex;
     border: 2px solid purple;
     border-radius: 11px;
-   margin:11px;
+   margin:13px 47px;
    padding:11px;
 }
 
@@ -151,10 +157,10 @@ hr{
     width: 257px;
     height: 151px;
     margin: auto;
+    border-radius:23px;
+    
+}
+.blog-container .items .content{
+    margin:30px;
 }
 
-.footer-height{
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-}
